@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cargar Remitos", "Cargar Remitos.csproj", "{D602FC50-6F2D-4E69-9FD1-D24A1A5CB7B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Datos", "Datos\Datos.csproj", "{CFD7EAD6-1D21-48C9-B57E-92F74A38C86B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D602FC50-6F2D-4E69-9FD1-D24A1A5CB7B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D602FC50-6F2D-4E69-9FD1-D24A1A5CB7B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D602FC50-6F2D-4E69-9FD1-D24A1A5CB7B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D602FC50-6F2D-4E69-9FD1-D24A1A5CB7B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFD7EAD6-1D21-48C9-B57E-92F74A38C86B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFD7EAD6-1D21-48C9-B57E-92F74A38C86B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFD7EAD6-1D21-48C9-B57E-92F74A38C86B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFD7EAD6-1D21-48C9-B57E-92F74A38C86B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {53943E3A-1B18-4DA6-8C32-F0D76953DAE6}
+	EndGlobalSection
+EndGlobal
