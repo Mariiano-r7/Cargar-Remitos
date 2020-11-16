@@ -92,11 +92,5 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="Datos\Datos.csproj">
-      <Project>{cfd7ead6-1d21-48c9-b57e-92f74a38c86b}</Project>
-      <Name>Datos</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

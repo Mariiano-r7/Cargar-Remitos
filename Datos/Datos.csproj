@@ -45,7 +45,18 @@
   <ItemGroup>
     <Compile Include="BD.cs" />
     <Compile Include="Conexion.cs" />
+    <Compile Include="DatosRemit.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Entidades\Entidades.csproj">
+      <Project>{b200c657-8b96-4927-9f0c-061234c120e1}</Project>
+      <Name>Entidades</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Cargar Remitos.csproj">
+      <Project>{d602fc50-6f2d-4e69-9fd1-d24a1a5cb7b0}</Project>
+      <Name>Cargar Remitos</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
